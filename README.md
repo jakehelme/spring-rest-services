@@ -2,5 +2,8 @@
 
 Tutorial [here](https://spring.io/guides/tutorials/bookmarks/).
 
-Install with maven command: `mvn install`. 
-Run with: `mvn clean spring-boot:run`
+Start with:
+```
+mvn install
+mvn clean spring-boot:run
+```
