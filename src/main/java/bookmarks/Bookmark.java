@@ -7,9 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-/**
- * Created by desol on 2016/11/26.
- */
 @Entity
 public class Bookmark {
     @JsonIgnore

@@ -9,10 +9,6 @@ import javax.persistence.OneToMany;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Created by desol on 2016/11/26.
- */
-
 @Entity
 public class Account {
     @OneToMany(mappedBy = "account")
