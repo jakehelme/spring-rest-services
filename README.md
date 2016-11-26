@@ -2,8 +2,22 @@
 
 Tutorial [here](https://spring.io/guides/tutorials/bookmarks/).
 
-Start with:
+If maven is installed, then run with:
 ```
 mvn install
 mvn clean spring-boot:run
+```
+
+If maven is not installed or in classpath:
+
+__Unix__
+```
+mvnw install
+mvnw clean spring-boot:run
+```
+
+__Windows__
+```
+mvnw.cmd install
+mvnw.cmd clean spring-boot:run
 ```
