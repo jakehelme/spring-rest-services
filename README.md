@@ -10,7 +10,7 @@ mvn clean spring-boot:run
 
 If maven is not installed or in classpath:
 
-__Unix__
+__Linux/Mac__
 ```
 mvnw install
 mvnw clean spring-boot:run
